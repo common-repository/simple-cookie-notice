@@ -1,0 +1,52 @@
+.jlplg-lovecoding-cookie-info-container {
+    position: fixed; 
+    z-index: 50; 
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.jlplg-lovecoding-cookie-info-container.jlplg-hidden {
+    display: none;
+}
+
+.jlplg-lovecoding-cookie-info {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.jlplg-lovecoding-cookie-info a {
+    color: inherit;
+}
+
+.jlplg-lovecoding-buttons {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+button.jlplg-lovecoding-cookie-accept-button, button.jlplg-lovecoding-cookie-privacy-policy {
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    margin: 5px 0;
+}
+
+button.jlplg-lovecoding-cookie-accept-button:hover, button.jlplg-lovecoding-cookie-privacy-policy:hover,
+button.jlplg-lovecoding-cookie-accept-button:focus, button.jlplg-lovecoding-cookie-privacy-policy:focus {
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+button.jlplg-lovecoding-cookie-accept-button:focus-visible, button.jlplg-lovecoding-cookie-privacy-policy:focus-visible {
+    border: 2px solid transparent;
+    outline: 2px solid var(--jlplg-buton-bg-color);
+    outline-offset: 2px;
+}
+
+.button-text {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
